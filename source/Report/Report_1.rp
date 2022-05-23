@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" Version="3.20" DotMatrixReport="false" IniFile="\Software\BELAZ\RECLAMATION" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="�� ���������" ReportOptions.CreateDate="38915,646782037" ReportOptions.Description.Text="" ReportOptions.LastChange="38917,6664753241" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C656674022803546F70024808446174617365747301010C3400000020446174615365743D2253514C5265706F7274446174615365742220446174615365744E616D653D2253514C44617461536574220000095661726961626C65730100055374796C650100">
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="49,13389" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo2" Left="139,84261" Top="7,55906" Width="415,7483" Height="30,23624" Font.Charset="1" Font.Color="0" Font.Height="-24" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="false" Text="АКТ-РЕКЛАМАЦИИ"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="839,05566" Left="0" Top="128,50402" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="SQLReportDataSet" DataSetName="SQLDataSet" RowCount="0">
+      <TfrxMemoView Name="Memo3" Left="241,88992" Top="3,77952999999999" Width="241,88992" Height="18,89765" DataField="DateReport" DataSet="SQLReportDataSet" DataSetName="SQLDataSet" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="false" Text="[SQLDataSet.&#34;DateReport&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="15,11812" Top="45,35436" Width="695,43352" Height="41,57483" DataField="PREDPR" DataSet="SQLReportDataSet" DataSetName="SQLDataSet" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="4" ParentFont="false" Text="[SQLDataSet.&#34;PREDPR&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="15,11812" Top="90,70872" Width="173,85838" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="0" ParentFont="false" Text="Отгрузочные реквизиты:"/>
+      <TfrxMemoView Name="Memo6" Left="196,53556" Top="90,70872" Width="514,01608" Height="41,57483" AutoWidth="true" DataField="OTGRUZKA" DataSet="SQLReportDataSet" DataSetName="SQLDataSet" Text="[SQLDataSet.&#34;OTGRUZKA&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="15,11812" Top="139,84261" Width="124,72449" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="0" ParentFont="false" Text="Расчетный счет:"/>
+      <TfrxMemoView Name="Memo8" Left="143,62214" Top="139,84261" Width="79,37013" Height="18,89765" AutoWidth="true" DataField="RAC_SHET" DataSet="SQLReportDataSet" DataSetName="SQLDataSet" Text="[SQLDataSet.&#34;RAC_SHET&#34;]"/>
+      <TfrxMemoView Name="Memo9" Left="15,11812" Top="166,29932" Width="136,06308" Height="18,89765" Text="Коммисия в составе:"/>
+      <TfrxMemoView Name="Memo10" Left="154,96073" Top="166,29932" Width="555,59091" Height="49,13389" AutoWidth="true" DataField="KOMISIY" DataSet="SQLReportDataSet" DataSetName="SQLDataSet" Text="[SQLDataSet.&#34;KOMISIY&#34;]"/>
+      <TfrxMemoView Name="Memo11" Left="15,11812" Top="215,43321" Width="185,19697" Height="18,89765" Text="в присутствии председателя:"/>
+      <TfrxMemoView Name="Memo12" Left="204,09462" Top="215,43321" Width="79,37013" Height="18,89765" AutoWidth="true" DataField="PREDSEDATEL" DataSet="SQLReportDataSet" DataSetName="SQLDataSet" Text="[SQLDataSet.&#34;PREDSEDATEL&#34;]"/>
+      <TfrxMemoView Name="Memo13" Left="15,11812" Top="238,11039" Width="181,41744" Height="18,89765" Text="действуещего на основании:"/>
+      <TfrxMemoView Name="Memo14" Left="15,11812" Top="260,78757" Width="124,72449" Height="18,89765" Text="осмотрев изделие:"/>
+      <TfrxMemoView Name="Memo15" Left="15,11812" Top="306,14193" Width="109,60637" Height="18,89765" AutoWidth="true" Text="полученнный от:"/>
+      <TfrxMemoView Name="Memo16" Left="200,31509" Top="238,11039" Width="510,23655" Height="18,89765" AutoWidth="true" DataField="DEYSTV" DataSet="SQLReportDataSet" DataSetName="SQLDataSet" Text="[SQLDataSet.&#34;DEYSTV&#34;]"/>
+      <TfrxMemoView Name="Memo17" Left="143,62214" Top="260,78757" Width="109,60637" Height="18,89765" AllowHTMLTags="true" DataField="MODEL" DataSet="SQLReportDataSet" DataSetName="SQLDataSet" Text="[SQLDataSet.&#34;MODEL&#34;]"/>
+      <TfrxMemoView Name="Memo18" Left="143,62214" Top="283,46475" Width="566,9295" Height="18,89765" AutoWidth="true" DataField="MACHINE" DataSet="SQLReportDataSet" DataSetName="SQLDataSet" Text="[SQLDataSet.&#34;MACHINE&#34;]"/>
+      <TfrxMemoView Name="Memo19" Left="132,28355" Top="306,14193" Width="578,26809" Height="18,89765" DataField="POSTAVHIK" DataSet="SQLReportDataSet" DataSetName="SQLDataSet" Text="[SQLDataSet.&#34;POSTAVHIK&#34;]"/>
+      <TfrxMemoView Name="Memo20" Left="15,11812" Top="336,37817" Width="128,50402" Height="18,89765" Text="имевший к моменту поломки"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="22,67718" Left="0" Top="1028,03216" Width="718,1107">
+      <TfrxMemoView Name="Memo1" Left="642,419312533333" Top="0" Width="75,5906" Height="18,89765" HAlign="haRight" Text="[Page#]"/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>
